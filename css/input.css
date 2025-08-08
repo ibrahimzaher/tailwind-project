@@ -1,0 +1,19 @@
+@import "tailwindcss";
+:root {
+  --home-img: url("../images/wraper-min.png");
+  font-family: "Playwrite HU", cursive;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+@theme {
+  --color-main: #8b5a35;
+  --color-section: #f6f6f6;
+  --color-secondary: #090f41;
+}
+#home {
+  background-image: var(--home-img);
+  background-position: 50%;
+  background-size: cover;
+}
